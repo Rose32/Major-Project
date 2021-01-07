@@ -1,0 +1,11 @@
+Folder description
+denoisingfilter 	- implementation for noise extraction
+Final-Models 		- directory containing Image Dataset
+ImageIndex		- contains indexing information of the images present in the dataset saved for each camera model as 'modelname.mat' file with matlab variable name as 'SaveTable'.
+ImageIndex-text		- Same as ImageIndex but the information are in .txt file in csv format
+LBPFeatures 		- Contains the extracted LBPFeatures of the image and noise image of each models.
+Noise-Images		- Noise pattern of each images saved as a JPEG image
+
+
+CFAFeatures		- Contains the extracted LBPFeatures of the noise image of each models.
+NNData			- Contains the Features and Target data for NN training, currently for CFA.
